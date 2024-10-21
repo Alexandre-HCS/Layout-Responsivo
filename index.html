@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <h1>Create account</h1>
+
+        <div class="sociais">
+            <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Dpt-br&followup=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Dpt-br&hl=pt-br&ifkv=ARpgrqdUPJ8bAOXeRrQmBNRICQDwc4zUChgzbRekgRku-NztGOkGepLlc1CGCWol7oMimjbt3ScK&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S657848617%3A1729509638115016&ddm=0" target="_blank"><img src="assets/google.png" alt="Google" class="option"></a>
+            <a href="https://www.facebook.com/login/?locale=pt_BR" target="_blank"><img src="assets/facebook.png" alt="Facebook" class="option"></a>
+            <a href="https://www.linkedin.com/login/pt" target="_blank"><img src="assets/linkedin.png" alt="Linkedin" class="option"></a>
+        </div>
+        <div class="or">
+            <span>OR</span>
+        </div>
+        <div class="registro">
+            <form action="" class="formulario">
+                <label for="name">
+                    <span>NAME</span>
+                    <input type="text" name="name" id="name" required>
+                </label>
+                <label for="email">
+                    <span>E-MAIL</span>
+                    <input type="email" name="email" id="name" required>
+                </label>
+                <label for="password">
+                    <span>PASSWORD</span>
+                    <input type="password" name="password" id="password" required minlength="6">
+                </label>
+                <input type="submit" value="Sign Up">
+            </form>
+
+            <aside class="imagem">
+                <img src="assets/mobile.svg" alt="boneco">
+                <div class="circle"></div>
+            </aside>
+
+        </div>
+    </main>
+</body>
+</html>
